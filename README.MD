@@ -19,7 +19,7 @@ services.AddDbBackup();
 ```
 
 `appsetting.json`:
-```json
+```jsonc
 "DbBackupOptions": {
     // remote server
     "ServerInstance": "192.168.31.36",
