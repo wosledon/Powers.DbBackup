@@ -9,6 +9,7 @@ Support:
 Now it only supports the SqlServer.
 
 By: 胖纸不争
+
 NetCore🐧群: 743336452
 
 ## How to Use
