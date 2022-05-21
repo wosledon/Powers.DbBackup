@@ -57,7 +57,6 @@ namespace Powers.DbBackup.SqlServer
         {
             try
             {
-                ScriptingOptions scriptOptions = new ScriptingOptions();
                 Server server = new Server(
                     new ServerConnection(
                         _dbBackupOptions.ServerInstance,

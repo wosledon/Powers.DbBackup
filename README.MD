@@ -1,4 +1,4 @@
-# Powers.DbBackup
+﻿# Powers.DbBackup
 
 About:
 
@@ -7,6 +7,9 @@ This lib can backup a database to a sql script. And it can match the table names
 Support:
 
 Now it only supports the SqlServer.
+
+By: 胖纸不争
+NetCore🐧群: 743336452
 
 ## How to Use
 
@@ -18,7 +21,8 @@ Now it only supports the SqlServer.
 services.AddDbBackup();
 ```
 
-`appsetting.json`:
+`appsettings.json`:
+
 ```json
 "DbBackupOptions": {
     // remote server
@@ -46,7 +50,9 @@ services.AddDbBackup();
     "FormatTables": []
   }
 ```
+
 **OR**
+
 ```csharp
 services.AddDbBackup(opts =>
 {
@@ -84,7 +90,8 @@ services.AddDbBackup(opts =>
 builder.Services.AddDbBackup();
 ```
 
-`appsetting.json`:
+`appsettings.json`:
+
 ```json
 "DbBackupOptions": {
     "ServerInstance": "192.168.31.36",
@@ -100,7 +107,9 @@ builder.Services.AddDbBackup();
     "FormatTables": []
   }
 ```
+
 **OR**
+
 ```csharp
 builder.Services.AddDbBackup(opts =>
 {
